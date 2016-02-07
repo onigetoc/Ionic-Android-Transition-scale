@@ -14,13 +14,13 @@ I find out that when a page come in view it add `nav-bar-direction="back"` or 
 
 To make the view Scale up the Android way i did this css.
 
-`.platform-android ion-nav-view [nav-view-direction="forward"] 
-	left: 0;
-	z-index: 2;  
-	-webkit-animation: scaleUp .2s ease both;  
-	-moz-animation: scaleUp .2s ease both;  
- 	animation: scaleUp .2s ease both;  
-	-webkit-transform: translate3d(0, 0, 0);  
+`.platform-android ion-nav-view [nav-view-direction="forward"] {  
+    left: 0;  
+    z-index: 2;  
+    -webkit-animation: scaleUp .2s ease both;  
+    -moz-animation: scaleUp .2s ease both;  
+    animation: scaleUp .2s ease both;  
+    -webkit-transform: translate3d(0, 0, 0);  
 }`
 
 But since i put $ionicConfigProvider.views.transition('none'); to none
@@ -37,4 +37,4 @@ the old page is not hidded but removed without a timeout and i can't scale down 
 
 * * *
 
-You can fork and help for this project. We may need to hack it with some javascript somewhere to make the scale down work but i down want to touch the core i
+You can fork and help for this project. We may need to hack it with some javascript somewhere to make the scale down work but i down want to touch the core of ionic js file.
