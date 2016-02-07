@@ -15,12 +15,12 @@ I find out that when a page come in view it add `nav-bar-direction="back"` or 
 To make the view Scale up the Android way i did this css.
 
 `.platform-android ion-nav-view [nav-view-direction="forward"] {  
-    left: 0;  
-    z-index: 2;  
-    -webkit-animation: scaleUp .2s ease both;  
-    -moz-animation: scaleUp .2s ease both;  
-    animation: scaleUp .2s ease both;  
-    -webkit-transform: translate3d(0, 0, 0);  
+  left: 0;  
+  z-index: 2;  
+  -webkit-animation: scaleUp .2s ease both;  
+  -moz-animation: scaleUp .2s ease both;  
+  animation: scaleUp .2s ease both;  
+  -webkit-transform: translate3d(0, 0, 0);  
 }`
 
 But since i put $ionicConfigProvider.views.transition('none'); to none
