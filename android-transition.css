@@ -46,6 +46,16 @@
 }
 
 /*
+.platform-android ion-nav-view [nav-view-direction="back"] {
+    left: 0;
+    z-index: 2;
+    -webkit-animation: scaleDown .2s ease both;
+    -moz-animation: scaleDown .2s ease both;
+    animation: scaleDown .2s ease both;
+}
+*/
+
+/*
 .platform-android ion-nav-view [nav-view="active"] {
     -webkit-animation: scaleUp .2s ease both;
     -moz-animation: scaleUp .2s ease both;
@@ -73,16 +83,5 @@ ion-nav-view [nav-view-direction="back"] {
 ion-nav-view [nav-view-direction="forward"] {
     left: 0;
     z-index: 1;
-}
-*/
-
-
-/*
-.platform-android ion-nav-view [nav-view-direction="back"] {
-    left: 0;
-    z-index: 2;
-    -webkit-animation: scaleDown .2s ease both;
-    -moz-animation: scaleDown .2s ease both;
-    animation: scaleDown .2s ease both;
 }
 */
