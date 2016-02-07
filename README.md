@@ -38,3 +38,5 @@ the old page is not hidded but removed without a timeout and i can't scale down 
 * * *
 
 You can fork and help for this project. We may need to hack it with some javascript somewhere to make the scale down work but i down want to touch the core of ionic js file.
+
+At the end of the css code, there's some hidded code to make some test and help to create this Scale down transition.
